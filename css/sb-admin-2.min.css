@@ -12,7 +12,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
-:root {
+ :root {
     --blue: #4e73df;
     --indigo: #6610f2;
     --purple: #6f42c1;
@@ -25,7 +25,7 @@
     --cyan: #36b9cc;
     --white: #fff;
     --gray: #858796;
-    --gray-dark: #000000;
+    --gray-dark: #5a5c69;
     --primary: #4e73df;
     --secondary: #858796;
     --success: #1cc88a;
@@ -33,7 +33,7 @@
     --warning: #f6c23e;
     --danger: #e74a3b;
     --light: #f8f9fc;
-    --dark: #000000;
+    --dark: #5a5c69;
     --breakpoint-xs: 0;
     --breakpoint-sm: 576px;
     --breakpoint-md: 768px;
@@ -75,7 +75,7 @@ body {
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
-    color: #fff;
+    color: #858796;
     text-align: left;
     background-color: #fff;
 }
@@ -353,7 +353,7 @@ progress {
     -webkit-appearance: none;
 }
 
-::-webkit-file-upload-button {
+ ::-webkit-file-upload-button {
     font: inherit;
     -webkit-appearance: button;
 }
@@ -1874,7 +1874,7 @@ pre code {
 
 .table .thead-dark th {
     color: #fff;
-    background-color: #000000;
+    background-color: #5a5c69;
     border-color: #6c6e7e;
 }
 
@@ -1886,7 +1886,7 @@ pre code {
 
 .table-dark {
     color: #fff;
-    background-color: #000000;
+    background-color: #5a5c69;
 }
 
 .table-dark th,
@@ -2807,8 +2807,8 @@ fieldset:disabled a.btn {
 
 .btn-dark {
     color: #fff;
-    background-color: #000000;
-    border-color: #000000;
+    background-color: #5a5c69;
+    border-color: #5a5c69;
 }
 
 .btn-dark:hover {
@@ -2828,8 +2828,8 @@ fieldset:disabled a.btn {
 .btn-dark.disabled,
 .btn-dark:disabled {
     color: #fff;
-    background-color: #000000;
-    border-color: #000000;
+    background-color: #5a5c69;
+    border-color: #5a5c69;
 }
 
 .btn-dark:not(:disabled):not(.disabled):active,
@@ -3099,14 +3099,14 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-dark {
-    color: #000000;
-    border-color: #000000;
+    color: #5a5c69;
+    border-color: #5a5c69;
 }
 
 .btn-outline-dark:hover {
     color: #fff;
-    background-color: #000000;
-    border-color: #000000;
+    background-color: #5a5c69;
+    border-color: #5a5c69;
 }
 
 .btn-outline-dark:focus,
@@ -3116,7 +3116,7 @@ fieldset:disabled a.btn {
 
 .btn-outline-dark.disabled,
 .btn-outline-dark:disabled {
-    color: #000000;
+    color: #5a5c69;
     background-color: transparent;
 }
 
@@ -3124,8 +3124,8 @@ fieldset:disabled a.btn {
 .btn-outline-dark:not(:disabled):not(.disabled).active,
 .show>.btn-outline-dark.dropdown-toggle {
     color: #fff;
-    background-color: #000000;
-    border-color: #000000;
+    background-color: #5a5c69;
+    border-color: #5a5c69;
 }
 
 .btn-outline-dark:not(:disabled):not(.disabled):active:focus,
@@ -5266,7 +5266,7 @@ a.badge-light.focus {
 
 .badge-dark {
     color: #fff;
-    background-color: #000000;
+    background-color: #5a5c69;
 }
 
 a.badge-dark:hover,
@@ -6805,7 +6805,7 @@ button.bg-light:focus {
 }
 
 .bg-dark {
-    background-color: #000000 !important;
+    background-color: #111111!important;
 }
 
 a.bg-dark:hover,
@@ -6892,7 +6892,7 @@ button.bg-dark:focus {
 }
 
 .border-dark {
-    border-color: #000000 !important;
+    border-color: #111111!important;
 }
 
 .border-white {
@@ -9983,7 +9983,7 @@ a.text-light:focus {
 }
 
 .text-dark {
-    color: #000000 !important;
+    color: #111111!important;
 }
 
 a.text-dark:hover,
@@ -10170,7 +10170,7 @@ a:focus {
 }
 
 .scroll-to-top:hover {
-    background: #000000;
+    background: #5a5c69;
 }
 
 .scroll-to-top i {
@@ -10279,8 +10279,8 @@ a:focus {
 }
 
 .bg-gradient-dark {
-    background-color: #000000;
-    background-image: linear-gradient(180deg, #000000 10%, #373840 100%);
+    background-color: #5a5c69;
+    background-image: linear-gradient(180deg, #11111110%, #373840 100%);
     background-size: cover;
 }
 
@@ -10313,7 +10313,7 @@ a:focus {
 }
 
 .bg-gray-800 {
-    background-color: #000000 !important;
+    background-color: #111111!important;
 }
 
 .bg-gray-900 {
@@ -10361,7 +10361,7 @@ a:focus {
 }
 
 .text-gray-800 {
-    color: #000000 !important;
+    color: #111111!important;
 }
 
 .text-gray-900 {
@@ -10434,11 +10434,11 @@ a:focus {
 }
 
 .border-left-dark {
-    border-left: 0.25rem solid #000000 !important;
+    border-left: 0.25rem solid #111111!important;
 }
 
 .border-bottom-dark {
-    border-bottom: 0.25rem solid #000000 !important;
+    border-bottom: 0.25rem solid #111111!important;
 }
 
 .progress-sm {
@@ -11296,7 +11296,7 @@ form.user .btn-user {
 }
 
 .error {
-    color: #000000;
+    color: #5a5c69;
     font-size: 7rem;
     position: relative;
     line-height: 1;
@@ -11441,7 +11441,7 @@ form.user .btn-user {
     left: 2px;
     text-shadow: -1px 0 #e74a3b;
     top: 0;
-    color: #000000;
+    color: #5a5c69;
     background: #f8f9fc;
     overflow: hidden;
     clip: rect(0, 900px, 0, 0);
@@ -11586,7 +11586,7 @@ form.user .btn-user {
     left: -2px;
     text-shadow: 1px 0 #4e73df;
     top: 0;
-    color: #000000;
+    color: #5a5c69;
     background: #f8f9fc;
     overflow: hidden;
     clip: rect(0, 900px, 0, 0);
